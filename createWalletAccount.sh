@@ -30,3 +30,7 @@ Master Wallet Password: $MASTER_WALLET_PASSWORD
 Private Key: $PRIVATE_KEY
 Public Key: $PUBLIC_KEY
 Account Name: $ACCOUNT_NAME" > $FILENAME_PATH
+
+rm walletInfo.txt
+
+echo "createWalletAccount script ended."

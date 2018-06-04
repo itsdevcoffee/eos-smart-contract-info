@@ -1,6 +1,0 @@
-Creating wallet: timmy
-Save password to use in the future to unlock this wallet.
-Without password imported keys will not be retrievable.
-"PW5Jf9H2ntbDF4QvWhMQyxCnVW9acr5DPPXrcfjNeg41X95xAq2Ud"
-Private key: 5KjnCg8cU1Uwr98Qh31TR2497bCfUqn6ruJjV8fpEAYPzuaVWxx
-Public key: EOS59sfU28P3zyGjC7FVuH1ioeJBttMuXXLzAvv2eYQdq2gsyHk8A
