@@ -123,3 +123,12 @@ cleos set contract ping.code ../ping -p ping.code
 - Now run `sh compile.sh`. This will compile your smart contract and publish it to your local blockchain.
 - You can interact with your smart contract by running: `cleos push action ping.code ping '["user"]' -p user`
 - Congratulations! You just deployed and executed your first smart contract.
+
+## Helper scripts
+#### I wrote two scripts to help with typing repetitive commands
+
+- `compile.sh` : Put this script in the root of any new smart contract directory that you create. Anytime you want to compile and publish the smart contract just run `sh compile.sh` or `./compile.sh`. ***(Replace the `ping.code` variable with whatever account you want to develop on)***
+- `createWalletAccount.sh` : This script will create a new wallet with a public/private keypair and it creates an associated account name as well. To run this script just type `sh createWalletAccount.sh` or `./createWalletAccount.sh`.
+
+## Open to PRs
+#### I'll be adding on to this repo in the coming weeks. If anyone wants to join me go a head and create a pull request and I'll be more than happy to review/merge it!
